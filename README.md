@@ -17,10 +17,10 @@ Check out this video to see the application in action:
 
 ## Screenshots  
 
-1. **Login Page**  
+1. **Inside Database**  
 ![Screenshot 1](https://github.com/user-attachments/assets/9e17d05d-464a-40b4-a93d-8e7c9e9d2f25)  
 
-2. **Welcome Page**  
+2. **Login pg**  
 ![Screenshot 2](https://github.com/user-attachments/assets/aa546718-a0b2-4940-9a53-5fb5d6a938a0)  
 
 
