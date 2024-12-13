@@ -24,6 +24,7 @@ Check out this video to see the application in action:
 ![Screenshot 2](https://github.com/user-attachments/assets/aa546718-a0b2-4940-9a53-5fb5d6a938a0)  
 
 3. **XAMPP**
+
 ![Screenshot 2024-12-13 214321](https://github.com/user-attachments/assets/2047d9c9-2ddf-4961-ad36-a8e638adf150)
 
 
