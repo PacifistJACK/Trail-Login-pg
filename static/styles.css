@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('images/WBG1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    max-width: 1000px;
+    height: 70%; /* Adjust the height */
+    max-height: 400px; /* Set a max height */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px; /* Smoother border radius */
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for better readability */
+}
+
+.left-section {
+    flex: 1;
+    background: url('images/LBG.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 30px; /* Adjust padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center content horizontally */
+    text-align: center;  /* Center text */
+}
+
+.left-section h1 {
+    margin-bottom: 10px;
+    font-size: 26px; /* Adjusted font size */
+}
+
+.left-section p {
+    font-size: 16px; /* Adjusted font size */
+}
+
+.right-section {
+    flex: 1;
+    background: url('') no-repeat center center;
+    background-size: cover;
+    padding: 30px; /* Adjust padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.85); /* Slightly opaque to improve readability */
+    border-radius: 15px; /* Matching border radius */
+}
+
+.right-section h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.right-section form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.95); /* Slightly opaque background for form */
+}
+
+.right-section label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.right-section input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.right-section button {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.right-section button:hover {
+    background-color: #0f62bd;
+}
+
+.right-section .forgot-password {
+    margin-top: 10px;
+    text-align: right;
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.right-section .forgot-password:hover {
+    text-decoration: underline;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.alert.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert.danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
