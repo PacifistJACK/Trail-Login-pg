@@ -11,9 +11,18 @@ Ganga Bhumi Club is a web application designed for user authentication and manag
 ## Demo Video
 Check out this video to see the application in action:
 
-[![Demo Video]([https://img.youtube.com/vi/ZC-CwJ-i0ZU/0.jpg](https://github.com/user-attachments/assets/576a6683-f1bb-4289-8631-897866de759b))](https://www.youtube.com/watch?v=ZC-CwJ-i0ZU)
-![Screenshot 2024-12-13 211001](https://github.com/user-attachments/assets/9e17d05d-464a-40b4-a93d-8e7c9e9d2f25)
-![Screenshot 2024-12-13 211046](https://github.com/user-attachments/assets/aa546718-a0b2-4940-9a53-5fb5d6a938a0)
+## Demo Video  
+[![Demo Video](https://github.com/user-attachments/assets/576a6683-f1bb-4289-8631-897866de759b)](https://www.youtube.com/watch?v=ZC-CwJ-i0ZU)  
+[Watch the video](https://www.youtube.com/watch?v=ZC-CwJ-i0ZU)  
+
+## Screenshots  
+
+1. **Login Page**  
+![Screenshot 1](https://github.com/user-attachments/assets/9e17d05d-464a-40b4-a93d-8e7c9e9d2f25)  
+
+2. **Welcome Page**  
+![Screenshot 2](https://github.com/user-attachments/assets/aa546718-a0b2-4940-9a53-5fb5d6a938a0)  
+
 
 ## How to Run Locally
 Follow these steps to run the project on your local machine:
