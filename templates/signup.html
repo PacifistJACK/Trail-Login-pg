@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up - Ganga Bhumi Club</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h1>Welcome to Ganga Bhumi Club</h1>
+            <p>Stay connected with your favorite features!</p>
+        </div>
+        <div class="right-section">
+            <h2>Sign Up</h2>
+            {% with messages = get_flashed_messages(with_categories=true) %}
+              {% if messages %}
+                {% for category, message in messages %}
+                  <div class="alert {{ category }}">{{ message }}</div>
+                {% endfor %}
+              {% endif %}
+            {% endwith %}
+            <form method="POST" action="{{ url_for('signup') }}">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="email">Email/Mobile Number</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Sign Up</button>
+            </form>
+            <a href="{{ url_for('login') }}">Already a member?</a>
+        </div>
+    </div>
+</body>
+</html>
