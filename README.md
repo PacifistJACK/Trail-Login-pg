@@ -1,6 +1,6 @@
 # Ganga Bhumi Club Trail
 
-Web application designed for user authentication and management. It offers a seamless experience for users to sign up, log in, and access exclusive content. The application is developed using Flask and deployed on Vercel.
+Web application designed for user authentication and management. It offers a seamless experience for users to sign up, log in, and access exclusive content. The application is developed using Flask, XAMPP .
 
 ## Features
 - **User Sign-Up**: Users can create an account with a username, email, and password.
