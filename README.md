@@ -1,6 +1,6 @@
 # Ganga Bhumi Club
 
-Web application designed for user authentication and management for Ganga Bhumi Club Trial. It offers a seamless experience for users to sign up, log in, and access exclusive content. The application is developed using Flask and deployed on Vercel.
+Ganga Bhumi Club is a web application designed for user authentication and management. It offers a seamless experience for users to sign up, log in, and access exclusive content. The application is developed using Flask and deployed on Vercel.
 
 ## Features
 - **User Sign-Up**: Users can create an account with a username, email, and password.
@@ -11,8 +11,7 @@ Web application designed for user authentication and management for Ganga Bhumi 
 ## Demo Video
 Check out this video to see the application in action:
 
-![Demo Video](https://img.youtube.com/vi/ZC-CwJ-i0ZU/0.jpg)
-[Watch the video](https://www.youtube.com/watch?v=ZC-CwJ-i0ZU)
+[![Demo Video](https://img.youtube.com/vi/ZC-CwJ-i0ZU/0.jpg)](https://www.youtube.com/watch?v=ZC-CwJ-i0ZU)
 
 ## How to Run Locally
 Follow these steps to run the project on your local machine:
